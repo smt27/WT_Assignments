@@ -1,0 +1,35 @@
+employees {
+    display: table;
+	color: white;
+	background-color : rgb(102, 57, 57);
+	width: 100%;
+    text-align: center;
+	margin: 20px;
+	
+	
+}
+employee{
+	
+    display: table-row;
+		
+}
+employee- name,ID,BG,department,designation{
+    display: table-cell;
+	padding:15px;
+	
+   
+}
+heading {
+    display: table-caption;
+	color: green;
+	font-size : 40px;
+	background-color :black;
+	margin: 2cm;
+    /* text-align: center; */
+}
+
+name {
+    color: gold;
+	font-size : 25px;
+	font-weight : bold;
+}
