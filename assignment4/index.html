@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section class="abc">
+    <h1 style="text-align: center; font-size: xx-large;">Calculator</h1>
+    <div class="inp">
+        <input type="text" id="number" name="number" placeholder="Calculator" style="width: 300px; height: 50px; border: 1px solid; text-align: center; font-size: larger;"><br>
+    </div>
+        
+        <div class="parent" id="parent" >
+            <div>
+                <button type="button" onclick="dis('1')" value="1">1</button>
+                <button type="button" onclick="dis('2')" value="2">2</button>
+                <button type="button" onclick="dis('3')" value="3">3</button>
+                <button type="button" onclick="dis('+')" value="+">+</button>
+            </div>
+            <div>
+                <button type="button" onclick="dis('4')" value="4">4</button>
+                <button type="button" onclick="dis('5')" value="5">5</button>
+                <button type="button" onclick="dis('6')" value="6">6</button>
+                <button type="button" onclick="dis('-')" value="-">-</button>
+            </div>
+            <div>
+                <button type="button" onclick="dis('7')" value="7">7</button>
+                <button type="button" onclick="dis('8')" value="8">8</button>
+                <button type="button" onclick="dis('9')" value="9">9</button>
+                <button type="button" onclick="dis('*')" value="*">*</button>
+            </div>
+            <div> 
+                <button type="button" onclick="dis('/')" value="/">/</button>
+                <button type="button" onclick="dis('^')" value="^">^</button>
+                <button type="button" onclick="clr()" value="C">C</button>
+                <button type="button" onclick="solve()" value="=" id="sovle">=</button>
+            </div>
+           
+
+           
+    </div>
+</section>
+  
+        <script src="index.js"></script>
+</body>
+</html>

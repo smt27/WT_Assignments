@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+  
+}
+.abc{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+.inp{
+    /* margin-left: 590px; */
+    display:inline-block;
+    padding-top: 50px;
+
+}
+.parent{
+    margin-left:14.5cm;
+    width:30%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.parent div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1.5fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    }
+
+.parent button{
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    cursor: pointer;
+
+}
+
